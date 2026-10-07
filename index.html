@@ -474,7 +474,7 @@ function buildCert(r, mode){
   const pMeshareka = isMale ? 'مشاركته' : 'مشاركتها';
   const pEhtemam = isMale ? 'اهتمامه' : 'اهتمامها';
   const pHaqqaqat = isMale ? 'حقق' : 'حققت';
-  k.appendChild(el('div','desc',`وذلك تقديرًا لـ${pMeshareka} الفاعلة في المحطة الأولى «صحتك النفسية» ضمن مبادرة «هي منه وهيا منه»، و${pEhtemam} بتعزيز الوعي بالصحة النفسية، وقد ${pHaqqaqat} نتيجة ${r.score} من ${r.total} (${r.percentage}٪).`));
+  k.appendChild(el('div','desc',`وذلك تقديرًا لـ${pMeshareka} الفاعلة في المحطة الأولى «صحتك النفسية» ضمن مبادرة «هي منه وهو منه»، و${pEhtemam} بتعزيز الوعي بالصحة النفسية، وقد ${pHaqqaqat} نتيجة ${r.score} من ${r.total} (${r.percentage}٪).`));
   k.appendChild(el('div','grade','التقدير: ' + r.grade));
   const f = el('div','footer');
   const s1 = el('div','sigline'); s1.append(el('div','sig-name',r.date), el('div','sig-title','التاريخ'));
